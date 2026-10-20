@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notebook>
+  
+  <offices>
+    <office code="id_off1">Офис №1</office>
+    <office code="id_off2">Офис №2</office>
+  </offices>
+
+  <person id="id_p1" office="id_off1">
+    <name>
+      <first>Алексей</first>
+      <surname>Попов</surname>
+    </name>
+    <address>
+      <index>125009</index>
+      <city>Москва</city>
+      <street>Тверская</street>
+    </address>
+    <phones>
+      <phone type="work">495-11-22</phone>
+      <phone type="home">916-33-44</phone>
+    </phones>
+  </person>
+
+  <person id="id_p2" office="id_off2">
+    <name>
+      <first>Ольга</first>
+      <surname>Смирнова</surname>
+    </name>
+    <address>
+      <city>Казань</city>
+      <street>Баумана</street>
+      <index>420000</index>
+    </address>
+    <phones>
+      <phone>843-55-66</phone>
+    </phones>
+  </person>
+
+</notebook>
